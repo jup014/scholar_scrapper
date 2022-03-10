@@ -1,0 +1,32 @@
+{
+    "name": "Google Scholar Scrapper",
+    "description": "Convert current Google scholar page to a Tab-delimited text",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "js/background.js"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions":[
+        "http://scholar.google.com/",
+        "https://scholar.google.com/"
+    ],
+    "action": {
+        "default_icon": {
+            "16": "/favicon/favicon.png",
+            "32": "/favicon/favicon.png",
+            "48": "/favicon/favicon.png",
+            "128": "/favicon/favicon.png"
+        }
+    },
+    "icons": {
+        "16": "/favicon/favicon.png",
+        "32": "/favicon/favicon.png",
+        "48": "/favicon/favicon.png",
+        "128": "/favicon/favicon.png"
+    }
+}
